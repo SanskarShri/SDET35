@@ -19,7 +19,7 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 	{
 		
 		
-		//TC-30 is the test case present in PurchaseOrder Assignment 
+		//TC-30 is the test case present in PurchaseOrder Assignmen
 		
 		
 		//To get Random number
