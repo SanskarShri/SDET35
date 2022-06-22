@@ -17,7 +17,9 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 	@Test
 	public void createMethodPurchaseOrderSelCopyShippingAddBillingAddPresCbTest() throws Throwable
 	{
-		//TC-30 is the test case present in PurchaseOrder Assignment given by sir 
+		
+		
+		//TC-30 is the test case present in PurchaseOrder Assignment 
 		
 		
 		//To get Random number
