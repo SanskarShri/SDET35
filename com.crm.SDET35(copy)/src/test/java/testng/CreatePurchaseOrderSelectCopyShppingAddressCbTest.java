@@ -49,7 +49,7 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 		CreatePurchaseOrderPage create=new CreatePurchaseOrderPage(driver);
 		
 		create.clickOnPurchaseOrderLkpImg();
-		Assert.fail(); /*Added by me to fail the script ,to check whether it take the screenshot at the 
+		/*Assert.fail(); Added by me to fail the script ,to check whether it take the screenshot at the 
 		  place where script get failed*/
 		
 		//Entering the purchase order details
