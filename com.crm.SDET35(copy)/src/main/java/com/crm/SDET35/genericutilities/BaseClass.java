@@ -22,7 +22,7 @@ public class BaseClass
 	public static WebDriver sdriver;
 	
 	/*Above "public static WebDriver sdriver" i had added to 
-	 take screenshot otherwise only public WebDriver driver is written
+	 take screenshot at the time of failure of script otherwise only public WebDriver driver is written
 	 */
 	public WebDriver driver;
 	public JavaUtility jLib=new JavaUtility();
@@ -58,8 +58,9 @@ public class BaseClass
 		
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-		  WebDriverManager.chromedriver().setup();
-		 driver=new ChromeDriver();
+		driver=new ChromeDriver();
+//		  WebDriverManager.chromedriver().setup();
+//		 driver=new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
