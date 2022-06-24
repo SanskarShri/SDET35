@@ -58,7 +58,7 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
         String finalShippAdd=pInfo.getFinalShippAdd();
          //Verifying Shipping address is not erased
          
-         Assert.assertTrue(finalBillAdd.contains("Vijaywada,Benzcircle"));
+         Assert.assertTrue(finalBillAdd.contains("Rema sky view apartments"));
         	
         Assert.assertTrue(finalBillAdd.equals(shipAdd));
          }
